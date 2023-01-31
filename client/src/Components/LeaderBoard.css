@@ -1,0 +1,78 @@
+.stats-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #323437;
+  box-shadow: 0 2px 3px #323437;
+}
+
+.stats-table th,
+.stats-table td {
+  border: 1px solid #323437;
+  padding: 8px;
+  text-align: center;
+  color: #d1d0c5;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  background-color: #323437;
+  margin: 0;
+}
+
+.stats-table th {
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #323437;
+  color: 323437;
+}
+th:hover {
+  background-color: #e2b714;
+  color: #2c2e31;
+  border: none;
+}
+th:active {
+  background-color: #d1d0c5;
+  color: #2c2e31;
+}
+
+.stats-table tr:nth-child(even) {
+  background-color: #2c2e31;
+}
+
+.stats-table td:first-child {
+  font-weight: bold;
+}
+
+.sort-order {
+  text-align: center;
+  font-size: 16px;
+  color: #d1d0c5;
+}
+
+.go-back-button {
+  display: inline;
+  font-size: 10px;
+
+  background-color: #2c2e31;
+  color: #d1d0c5;
+  padding: 14px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  left: 47%;
+  top: 15px;
+}
+
+.go-back-button:hover {
+  background-color: #e2b714;
+  color: #2c2e31;
+}
+
+.go-back-button:active {
+  background-color: #d1d0c5;
+  color: #2c2e31;
+}

@@ -1,0 +1,59 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+
+  border-radius: 5px;
+  padding: 20px;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #323437;
+  border-radius: 4px;
+}
+
+form .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+form button[type="submit"] {
+  width: 100%;
+  background-color: #2c2e31;
+  color: #d1d0c5;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #e2b714;
+
+  color: #2c2e31;
+}
+
+form button[type="submit"]:active {
+  background-color: #d1d0c5;
+  color: #2c2e31;
+}
+
+.login img {
+  width: 200px;
+  height: 100px;
+  padding: 0 0 0 90px;
+}

@@ -1,0 +1,37 @@
+.result {
+  display: inline-block;
+  position: relative;
+  color: #d1d0c5;
+  top: 28%;
+  left: 40%;
+  padding: 20px 0;
+  margin-bottom: 10%;
+  font-size: 16pt;
+}
+.dynamic-button {
+  display: inline;
+  font-size: 10px;
+  background-color: #2c2e31;
+  color: #d1d0c5;
+  padding: 14px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.dynamic-button:hover {
+  background-color: #e2b714;
+  color: #2c2e31;
+}
+
+.dynamic-button:active {
+  background-color: #d1d0c5;
+  color: #2c2e31;
+}
+body {
+  background-color: "#323437";
+}
+.generated-text {
+  color: #d1d0c5;
+}
