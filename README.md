@@ -9,3 +9,7 @@ The app includes features such as:
 4. User authentication
 5. Sorting of user stats in different orders
 6. A leaderboard to view the top scores
+# Usage
+1. clone/download the repo
+2. cd server, npm install to install the required modules then npm run dev to start server
+3. cd client, npm install to install the required modules then npm start to start the app
